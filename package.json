@@ -1,0 +1,36 @@
+{
+  "name": "react-stopwatch",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://msanatan.github.io/react-stopwatch",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "gh-pages": "^1.0.0",
+    "react": "^15.6.1",
+    "react-bootstrap": "^0.31.5",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.10"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
